@@ -35,7 +35,7 @@ class SlimePet:
         self.state = 'normal'
         self.x = width // 2  # 初始x位置
         self.y = height // 2  # 初始y位置
-        self.speed = 5  # 移动速度
+        self.speed = 20  # 移动速度
         self.auto_move_timer = 0  # 自动移动计时器
         self.auto_move_interval = 1000  # 自动移动间隔时间（毫秒）
 
